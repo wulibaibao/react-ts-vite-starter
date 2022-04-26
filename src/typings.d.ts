@@ -10,7 +10,7 @@ declare type RouteConfig = {
 	name?: string;
 	routes?: RouteConfig[];
 	redirect?: string;
-}
+};
 
 declare type PageRoute = {
 	path?: string;
@@ -20,3 +20,5 @@ declare type PageRoute = {
 	routes?: PageRoute[];
 	redirect?: string;
 };
+
+declare type Theme = "light" | "dark";
