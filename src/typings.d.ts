@@ -15,7 +15,7 @@ declare type RouteConfig = {
 declare type PageRoute = {
 	path?: string;
 	component?: React.LazyExoticComponent<React.FC<{}>> | any;
-
+	layout?: boolean;
 	name?: string;
 	routes?: PageRoute[];
 	redirect?: string;

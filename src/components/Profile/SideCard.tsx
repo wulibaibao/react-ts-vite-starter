@@ -2,7 +2,7 @@ import React from "react";
 
 const ProfileSideCard: React.FC = () => {
 	return (
-		<div className="max-w-sm w-auto m-auto mt-6 ml-6 overflow-hidden bg-white shadow-lg dark:bg-gray-800 rounded-lg">
+		<div className="max-w-sm w-auto m-auto overflow-hidden bg-white shadow-lg dark:bg-gray-800 rounded-lg">
 			<img
 				className="object-cover object-center w-full h-56"
 				src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"

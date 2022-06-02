@@ -6,7 +6,7 @@ const LayoutContent: React.FC = ({ children }) => {
 	return (
 		<>
 			<Header />
-			<div className="flex flex-row mx-auto">
+			<div className="flex flex-row p-6">
 				<div className=" w-1/4">
 					<ProfileSideCard />
 				</div>

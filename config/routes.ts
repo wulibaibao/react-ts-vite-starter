@@ -5,13 +5,26 @@ const routes = [
 		component: "page/Dashboard",
 	},
 	{
-		path: "/",
+		path: "/p",
 		name: "post",
-		component: "page/Posts",
+		routes: [
+			{
+				path: ":sulg",
+				name: "posts",
+				component: "page/Post/Posts",
+			},
+
+			{
+				path: "*",
+				name: "post-index",
+				component: "page/Post",
+			},
+		],
 	},
 	{
 		path: "/login",
 		name: "login",
+		layout: false,
 		component: "page/Login",
 	},
 	{
